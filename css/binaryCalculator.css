@@ -1,0 +1,40 @@
+body {
+    width: 40%;
+    margin: 20vh auto;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    font-family: Lobster;
+    color: tomato;
+}
+#res {
+    background-color: lightgray;
+    border: solid;
+    height: 48px;
+    font-size: 20px;
+}
+#btns > button {
+    width: 25%;
+    height: 36px;
+    font-size: 18px;
+    margin: 0;
+    float: left;
+}
+#btn0,
+#btn1 {
+    background-color: lightgreen;
+    color: brown;
+}
+#btnClr,
+#btnEql {
+    background-color: darkgreen;
+    color: white;
+}
+#btnSum,
+#btnSub,
+#btnMul,
+#btnDiv {
+    background-color: black;
+    color: red;
+}
